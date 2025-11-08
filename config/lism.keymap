@@ -78,7 +78,7 @@
 &tog 0        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans              &kp LEFT       &kp DOWN      &kp RIGHT
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         layer_2 {
@@ -112,36 +112,6 @@
 &none        &none           &none  &none  &none                       &none         &none         &none         &none         &none
 &sys_reset   &none           &none  &none  &none                       &none         &none         &none         &none         &sys_reset
 &bootloader  &bt BT_CLR_ALL  &none  &none  &none       &none    &none  &none         &none         &none         &none         &bootloader
-            >;
-        };
-
-        layer_5 {
-            display-name = "Brank Layer";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_6 {
-            display-name = "Brank Layer";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_7 {
-            display-name = "Brank Layer";
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
