@@ -66,7 +66,7 @@
 &lt 1 LANG2  &kp LEFT     &kp RIGHT     &kp LS(LG(N4))  &lt 2 SPACE     &lt 3 ESC    &lt 3 BACKSPACE  &lt 2 ENTER      &kp LS(LG(N4))   &kp LEFT      &kp RIGHT    &lt 1 LANG1
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&encoder_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         layer_1 {
@@ -78,7 +78,7 @@
 &tog 0        &trans        &trans        &trans        &trans        &trans    &trans  &trans  &trans              &kp LEFT       &kp DOWN      &kp RIGHT
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&encoder_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         layer_2 {
@@ -103,16 +103,6 @@
             >;
 
             sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
-        };
-
-        layer_4 {
-            display-name = "Device Layer";
-            bindings = <
-&none        &none           &none  &none  &bt BT_CLR                  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&none        &none           &none  &none  &none                       &none         &none         &none         &none         &none
-&sys_reset   &none           &none  &none  &none                       &none         &none         &none         &none         &sys_reset
-&bootloader  &bt BT_CLR_ALL  &none  &none  &none       &none    &none  &none         &none         &none         &none         &bootloader
-            >;
         };
     };
 };
