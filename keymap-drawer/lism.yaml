@@ -173,5 +173,5 @@ layers:
   - PERIOD
   - KP EQUAL
 combos:
-- p: [10, 11]
+- p: [18, 19]
   k: {t: Mouse Layer, h: toggle}
