@@ -50,7 +50,7 @@
 
         toggle_Layer1 {
             bindings = <&tog 1>;
-            key-positions = <10 11>;
+            key-positions = <18 19>;
         };
     };
 
