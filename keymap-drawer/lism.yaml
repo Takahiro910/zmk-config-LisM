@@ -150,7 +150,7 @@ layers:
   - '4'
   - '5'
   - '6'
-  - {t: ▽, type: trans}
+  - LSHFT
   - F1
   - F2
   - F3
@@ -160,9 +160,9 @@ layers:
   - '1'
   - '2'
   - '3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCTRL
+  - LEFT GUI
+  - LEFT ALT
   - {t: ▽, type: trans}
   - SPACE
   - {type: held}
