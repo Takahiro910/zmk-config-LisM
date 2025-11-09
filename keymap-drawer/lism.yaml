@@ -40,8 +40,8 @@ layers:
   - {t: BS, h: Number Layer}
   - {t: ENTER, h: Symbol Layer}
   - Sft+Gui+4
-  - ←
-  - →
+  - UP ARROW
+  - ↓
   - {t: LANG1, h: Mouse Layer}
   Mouse Layer:
   - {t: BT, h: '0'}
@@ -61,7 +61,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp LCLK'
-  - '&mkp MCLK'
+  - {t: ESCAPE, h: Symbol Layer}
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
