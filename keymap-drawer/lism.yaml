@@ -42,7 +42,7 @@ layers:
   - Sft+Gui+4
   - LEFT ARROW
   - ↓
-  - RIGHT ARROW
+  - {t: RIGHT ARROW, h: Mouse Layer}
   Mouse Layer:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -55,10 +55,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: Default Layer, h: toggle}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCTRL
+  - LEFT SHIFT
+  - LEFT ALT
+  - LEFT GUI
   - {t: ▽, type: trans}
   - '&mkp LCLK'
   - {t: ESCAPE, h: Symbol Layer}
@@ -74,7 +74,7 @@ layers:
   - Alt+→
   - UP ARROW
   - {t: ▽, type: trans}
-  - {t: Default Layer, h: toggle, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -112,7 +112,7 @@ layers:
   - '"'
   - '#'
   - UNDERSCORE
-  - INT YEN
+  - \
   - Alt+←
   - Alt+→
   - UP ARROW
