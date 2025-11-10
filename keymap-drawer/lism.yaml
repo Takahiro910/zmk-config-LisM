@@ -29,7 +29,7 @@ layers:
   - N
   - M
   - ','
-  - .
+  - {t: PERIOD, h: UP ARROW}
   - /
   - {t: LANG2, h: Mouse Layer}
   - ←
@@ -40,9 +40,9 @@ layers:
   - {t: BS, h: Number Layer}
   - {t: ENTER, h: Symbol Layer}
   - Sft+Gui+4
-  - UP ARROW
+  - LEFT ARROW
   - ↓
-  - {t: LANG1, h: Mouse Layer}
+  - RIGHT ARROW
   Mouse Layer:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -98,7 +98,7 @@ layers:
   - '~'
   - ;
   - TAB
-  - $
+  - {t: $, h: LCTRL}
   - '%'
   - '&'
   - '['
@@ -171,7 +171,11 @@ layers:
   - {t: ▽, type: trans}
   - '0'
   - PERIOD
-  - KP EQUAL
+  - '='
 combos:
 - p: [18, 19]
   k: {t: Mouse Layer, h: toggle}
+- p: [13, 34]
+  k: LANG2
+- p: [16, 37]
+  k: LANG1
