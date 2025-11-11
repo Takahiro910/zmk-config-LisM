@@ -34,15 +34,15 @@ layers:
   - {t: LANG2, h: Mouse Layer}
   - ←
   - →
-  - Sft+Gui+4
+  - {t: ▽, type: trans}
   - {t: SPACE, h: Symbol Layer}
   - {t: ESC, h: Number Layer}
   - {t: BS, h: Number Layer}
   - {t: ENTER, h: Symbol Layer}
   - Sft+Gui+4
-  - LEFT ARROW
+  - {t: LEFT ARROW, h: HOME}
   - ↓
-  - {t: RIGHT ARROW, h: Mouse Layer}
+  - {t: RIGHT ARROW, h: END}
   Mouse Layer:
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -84,49 +84,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ←
-  - ↓
-  - →
-  Symbol Layer:
-  - ESCAPE
-  - SQT
-  - (
-  - )
-  - '{'
-  - '}'
-  - '@'
-  - '`'
-  - '~'
-  - ;
-  - TAB
-  - {t: $, h: LCTRL}
-  - '%'
-  - '&'
-  - '['
-  - ']'
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
-  - ':'
-  - {t: Sft+TAB, h: LEFT SHIFT}
-  - '!'
-  - '"'
-  - '#'
-  - UNDERSCORE
-  - \
-  - Alt+←
-  - Alt+→
-  - UP ARROW
-  - RALT
-  - LCTRL
-  - LGUI
-  - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - DEL
-  - ENTER
-  - {t: ▽, type: trans}
-  - LEFT ARROW
   - ↓
   - →
   Number Layer:
@@ -172,6 +129,49 @@ layers:
   - '0'
   - PERIOD
   - '='
+  Symbol Layer:
+  - ESCAPE
+  - SQT
+  - (
+  - )
+  - '{'
+  - '}'
+  - '@'
+  - '`'
+  - '~'
+  - ;
+  - TAB
+  - {t: $, h: LCTRL}
+  - {t: '%', h: LEFT SHIFT}
+  - '&'
+  - '['
+  - ']'
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - ':'
+  - {t: Sft+TAB, h: LEFT SHIFT}
+  - '!'
+  - '"'
+  - '#'
+  - UNDERSCORE
+  - \
+  - Alt+←
+  - Alt+→
+  - UP ARROW
+  - RALT
+  - LCTRL
+  - LGUI
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - DEL
+  - ENTER
+  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - ↓
+  - →
 combos:
 - p: [18, 19]
   k: {t: Mouse Layer, h: toggle}
