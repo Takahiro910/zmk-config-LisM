@@ -86,49 +86,6 @@ layers:
   - ↓
   - {t: ▽, type: trans}
   - Gui+W
-  Symbol Layer:
-  - {t: ▽, type: trans}
-  - SQT
-  - (
-  - )
-  - '{'
-  - '}'
-  - '@'
-  - '`'
-  - '~'
-  - ;
-  - TAB
-  - $
-  - '%'
-  - '&'
-  - '['
-  - ']'
-  - '&mkp LCLK'
-  - '&mkp MCLK'
-  - '&mkp RCLK'
-  - ':'
-  - {t: Sft+TAB, h: LEFT SHIFT}
-  - '!'
-  - '"'
-  - '#'
-  - UNDERSCORE
-  - NON US BACKSLASH
-  - Alt+←
-  - Alt+→
-  - UP ARROW
-  - '*'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ENTER
-  - {t: ▽, type: trans}
-  - {t: ←, h: HOME}
-  - ↓
-  - {t: →, h: END}
   Number Layer:
   - Ctl+Sft+ESCAPE
   - F7
@@ -172,6 +129,49 @@ layers:
   - Sft+Ctl+0
   - Ctl+PERIOD
   - '='
+  Symbol Layer:
+  - {t: ▽, type: trans}
+  - SQT
+  - (
+  - )
+  - '{'
+  - '}'
+  - '@'
+  - '`'
+  - '~'
+  - ;
+  - TAB
+  - $
+  - '%'
+  - '&'
+  - '['
+  - ']'
+  - '&mkp LCLK'
+  - '&mkp MCLK'
+  - '&mkp RCLK'
+  - ':'
+  - {t: Sft+TAB, h: LEFT SHIFT}
+  - '!'
+  - '"'
+  - '#'
+  - UNDERSCORE
+  - NON US BACKSLASH
+  - Alt+←
+  - Alt+→
+  - UP ARROW
+  - '*'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ENTER
+  - {t: ▽, type: trans}
+  - {t: ←, h: HOME}
+  - ↓
+  - {t: →, h: END}
   Device Layer:
   - ''
   - ''
