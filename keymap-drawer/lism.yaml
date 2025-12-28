@@ -126,8 +126,8 @@ layers:
   - DEL
   - ENTER
   - {t: ▽, type: trans}
-  - Sft+Ctl+0
-  - Ctl+PERIOD
+  - '0'
+  - PERIOD
   - '='
   Symbol Layer:
   - {t: ▽, type: trans}
