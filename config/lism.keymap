@@ -92,10 +92,10 @@
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&kp LC(LS(ESCAPE))  &kp F7        &kp F8         &kp F9           &kp F10                                 &kp TILDE  &kp SLASH     &kp N7                &kp N8          &kp N9
-&kp LG(TAB)         &mt LCTRL F4  &mt LSHIFT F5  &mt LEFT_ALT F6  &mt LEFT_WIN F11                        &kp CARET  &kp ASTERISK  &kp NUMBER_4          &kp N5          &kp NUMBER_6
-&kp LEFT_SHIFT      &kp F1        &kp F2         &kp F3           &kp F12                                 &kp MINUS  &kp PLUS      &kp NUMBER_1          &kp NUMBER_2    &kp NUMBER_3
-&kp LCTRL           &kp LEFT_GUI  &kp LEFT_ALT   &trans           &kp SPACE         &trans    &kp DELETE  &kp ENTER  &trans        &kp RS(RC(NUMBER_0))  &kp RC(PERIOD)  &kp EQUAL
+&kp LC(LS(ESCAPE))  &kp F7        &kp F8         &kp F9           &kp F10                                 &kp TILDE  &kp SLASH     &kp N7        &kp N8        &kp N9
+&kp LG(TAB)         &mt LCTRL F4  &mt LSHIFT F5  &mt LEFT_ALT F6  &mt LEFT_WIN F11                        &kp CARET  &kp ASTERISK  &kp NUMBER_4  &kp N5        &kp NUMBER_6
+&kp LEFT_SHIFT      &kp F1        &kp F2         &kp F3           &kp F12                                 &kp MINUS  &kp PLUS      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3
+&kp LCTRL           &kp LEFT_GUI  &kp LEFT_ALT   &trans           &kp SPACE         &trans    &kp DELETE  &kp ENTER  &trans        &kp NUMBER_0  &kp PERIOD    &kp EQUAL
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
