@@ -73,7 +73,7 @@
 &kp Q         &kp W        &kp E         &kp R           &kp T                                         &kp Y            &kp U            &kp I          &kp O                &kp P
 &kp A         &mt LCTRL S  &mt LSHIFT D  &mt LEFT_ALT F  &mt LEFT_WIN G                                &mt RIGHT_WIN H  &mt RIGHT_ALT J  &mt RSHIFT K   &mt RCTRL L          &kp MINUS
 &kp Z         &kp X        &kp C         &kp V           &kp B                                         &kp N            &kp M            &kp COMMA      &mt UP_ARROW PERIOD  &kp SLASH
-&lt 1 DELETE  &kp LEFT     &kp RIGHT     &trans          &lt 2 SPACE     &lt 3 ESC    &lt 3 BACKSPACE  &lt 2 ENTER      &trans           &mt HOME LEFT  &kp DOWN             &mt END RIGHT
+&lt 1 DELETE  &kp LEFT     &kp RIGHT     &trans          &lt 3 SPACE     &lt 2 ESC    &lt 2 BACKSPACE  &lt 3 ENTER      &trans           &mt HOME LEFT  &kp DOWN             &mt END RIGHT
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -90,18 +90,6 @@
         };
 
         layer_2 {
-            display-name = "Symbol Layer";
-            bindings = <
-&trans                  &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE                      &kp RIGHT_BRACE       &kp AT_SIGN   &kp GRAVE      &kp TILDE     &kp SEMICOLON
-&kp TAB                 &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp LEFT_BRACKET                    &kp RIGHT_BRACKET     &mkp LCLK     &mkp MCLK      &mkp RCLK     &kp COLON
-&mt LEFT_SHIFT LS(TAB)  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp UNDERSCORE                      &kp NON_US_BACKSLASH  &kp LA(LEFT)  &kp LA(RIGHT)  &kp UP_ARROW  &kp ASTERISK
-&trans                  &trans           &trans                &trans                 &trans            &trans    &trans  &kp ENTER             &trans        &mt HOME LEFT  &kp DOWN      &mt END RIGHT
-            >;
-
-            sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
-        };
-
-        layer_3 {
             display-name = "Number Layer";
             bindings = <
 &kp LC(LS(ESCAPE))  &kp F7        &kp F8         &kp F9           &kp F10                                 &kp TILDE  &kp SLASH     &kp N7                &kp N8          &kp N9
@@ -111,6 +99,18 @@
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        layer_3 {
+            display-name = "Symbol Layer";
+            bindings = <
+&trans                  &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE                      &kp RIGHT_BRACE       &kp AT_SIGN   &kp GRAVE      &kp TILDE     &kp SEMICOLON
+&kp TAB                 &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp LEFT_BRACKET                    &kp RIGHT_BRACKET     &mkp LCLK     &mkp MCLK      &mkp RCLK     &kp COLON
+&mt LEFT_SHIFT LS(TAB)  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp UNDERSCORE                      &kp NON_US_BACKSLASH  &kp LA(LEFT)  &kp LA(RIGHT)  &kp UP_ARROW  &kp ASTERISK
+&trans                  &trans           &trans                &trans                 &trans            &trans    &trans  &kp ENTER             &trans        &mt HOME LEFT  &kp DOWN      &mt END RIGHT
+            >;
+
+            sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
         };
 
         layer_4 {
