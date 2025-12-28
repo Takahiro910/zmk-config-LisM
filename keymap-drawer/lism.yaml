@@ -35,10 +35,10 @@ layers:
   - ←
   - →
   - {t: ▽, type: trans}
-  - {t: SPACE, h: Number Layer}
-  - {t: ESC, h: Symbol Layer}
-  - {t: BS, h: Symbol Layer}
-  - {t: ENTER, h: Number Layer}
+  - {t: SPACE, h: Symbol Layer}
+  - {t: ESC, h: Number Layer}
+  - {t: BS, h: Number Layer}
+  - {t: ENTER, h: Symbol Layer}
   - {t: ▽, type: trans}
   - {t: ←, h: HOME}
   - ↓
@@ -86,49 +86,6 @@ layers:
   - ↓
   - {t: ▽, type: trans}
   - Gui+W
-  Number Layer:
-  - Ctl+Sft+ESCAPE
-  - F7
-  - F8
-  - F9
-  - F10
-  - '~'
-  - /
-  - '7'
-  - '8'
-  - '9'
-  - Gui+TAB
-  - {t: F4, h: LCTRL}
-  - {t: F5, h: LSHIFT}
-  - {t: F6, h: LEFT ALT}
-  - {t: F11, h: LEFT WIN}
-  - ^
-  - '*'
-  - '4'
-  - '5'
-  - '6'
-  - LEFT SHIFT
-  - F1
-  - F2
-  - F3
-  - F12
-  - '-'
-  - +
-  - '1'
-  - '2'
-  - '3'
-  - LCTRL
-  - LEFT GUI
-  - LEFT ALT
-  - {t: ▽, type: trans}
-  - {t: SPACE, type: held}
-  - {t: ▽, type: trans}
-  - DEL
-  - ENTER
-  - {t: ▽, type: trans}
-  - Sft+Ctl+0
-  - Ctl+PERIOD
-  - '='
   Symbol Layer:
   - {t: ▽, type: trans}
   - SQT
@@ -164,14 +121,57 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ENTER
   - {t: ▽, type: trans}
   - {t: ←, h: HOME}
   - ↓
   - {t: →, h: END}
+  Number Layer:
+  - Ctl+Sft+ESCAPE
+  - F7
+  - F8
+  - F9
+  - F10
+  - '~'
+  - /
+  - '7'
+  - '8'
+  - '9'
+  - Gui+TAB
+  - {t: F4, h: LCTRL}
+  - {t: F5, h: LSHIFT}
+  - {t: F6, h: LEFT ALT}
+  - {t: F11, h: LEFT WIN}
+  - ^
+  - '*'
+  - '4'
+  - '5'
+  - '6'
+  - LEFT SHIFT
+  - F1
+  - F2
+  - F3
+  - F12
+  - '-'
+  - +
+  - '1'
+  - '2'
+  - '3'
+  - LCTRL
+  - LEFT GUI
+  - LEFT ALT
+  - {t: ▽, type: trans}
+  - SPACE
+  - {type: held}
+  - DEL
+  - ENTER
+  - {t: ▽, type: trans}
+  - Sft+Ctl+0
+  - Ctl+PERIOD
+  - '='
   Device Layer:
   - ''
   - ''
@@ -215,3 +215,10 @@ layers:
   - ''
   - ''
   - Boot
+combos:
+- p: [12, 13]
+  k: LANG2
+- p: [16, 17]
+  k: LANG1
+- p: [18, 19]
+  k: {t: Mouse Layer, h: toggle}
