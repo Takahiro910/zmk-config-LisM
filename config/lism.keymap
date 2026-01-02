@@ -7,8 +7,10 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
-    tapping-term-ms = <300>;
-    flavor = "balanced";
+    tapping-term-ms = <200>;
+    flavor = "tap-preferred";
+    quick-tap-ms = <200>;
+    require-prior-idle-ms = <125>;
 };
 
 &lt { quick-tap-ms = <300>; };
@@ -104,10 +106,10 @@
         layer_3 {
             display-name = "Symbol Layer";
             bindings = <
-&trans                  &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE                      &kp RIGHT_BRACE       &kp AT_SIGN   &kp GRAVE      &kp TILDE     &kp SEMICOLON
-&kp TAB                 &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp LEFT_BRACKET                    &kp RIGHT_BRACKET     &mkp LCLK     &mkp MCLK      &mkp RCLK     &kp COLON
-&mt LEFT_SHIFT LS(TAB)  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp UNDERSCORE                      &kp NON_US_BACKSLASH  &kp LA(LEFT)  &kp LA(RIGHT)  &kp UP_ARROW  &kp ASTERISK
-&trans                  &trans           &trans                &trans                 &trans            &trans    &trans  &kp ENTER             &trans        &mt HOME LEFT  &kp DOWN      &mt END RIGHT
+&trans                  &kp SQT          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE                          &kp RIGHT_BRACE       &kp AT_SIGN   &kp GRAVE      &kp TILDE     &kp SEMICOLON
+&kp TAB                 &kp DOLLAR       &kp PERCENT           &kp AMPERSAND          &kp LEFT_BRACKET                        &kp RIGHT_BRACKET     &mkp LCLK     &mkp MCLK      &mkp RCLK     &kp COLON
+&mt LEFT_SHIFT LS(TAB)  &kp EXCLAMATION  &kp DOUBLE_QUOTES     &kp HASH               &kp UNDERSCORE                          &kp NON_US_BACKSLASH  &kp LA(LEFT)  &kp LA(RIGHT)  &kp UP_ARROW  &kp ASTERISK
+&trans                  &trans           &trans                &trans                 &trans            &trans    &kp DELETE  &kp ENTER             &trans        &mt HOME LEFT  &kp DOWN      &mt END RIGHT
             >;
 
             sensor-bindings = <&encoder_msc SCRL_LEFT SCRL_RIGHT>;
