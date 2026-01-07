@@ -141,10 +141,10 @@ layers:
   - '~'
   - ;
   - TAB
-  - $
-  - '%'
-  - '&'
-  - '['
+  - {t: $, h: LCTRL}
+  - {t: '%', h: LEFT SHIFT}
+  - {t: '&', h: LEFT ALT}
+  - {t: '[', h: LEFT WIN}
   - ']'
   - '&mkp LCLK'
   - '&mkp MCLK'
@@ -160,9 +160,9 @@ layers:
   - Alt+→
   - UP ARROW
   - '*'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCTRL
+  - LEFT WIN
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
